@@ -1,0 +1,149 @@
+@charset "utf-8";
+body{
+	font-size:15px;
+}
+/* h1{
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+} */
+.kind{
+	font-size:16px;
+	margin-left:8vw;
+	font-weight: bold;
+}
+.coursename{
+	font-weight: bold;
+	margin-left:10vw;
+}
+.price{
+	display: block;
+	text-align:right;
+	margin-right:30vw
+}
+.detail{
+	margin-left:12vw;
+}
+.return{
+	font-size:1.5vw;
+	text-align:center;
+}
+.menuname{
+	margin-left:14vw;
+	margin-bottom:15vw;
+}
+.mname{
+	margin-bottom:10vh;
+	margin-left:14vw;
+}
+.photo{
+	display: block;
+	float:right;
+	text-align:right;
+	margin-right:6vw
+}
+#contacttable{
+	margin-left: auto;
+	margin-right: auto;
+	width:40vw;
+}
+.submit{
+	text-align:center;
+}
+.column{
+	text-align:center;
+	vertical-align:middle;
+	font-size:1.8vw;
+	width:10vw;
+}
+#send{
+	width:10vw;
+	font-size:1vw;
+}
+#contactlist {
+	border-collapse: collapse;
+	border:4px solid;
+	margin-left: auto;
+    margin-right: auto;
+    width:40vw;
+    margin-bottom:2vw;
+}
+#contactlist td,th{
+	border-collapse: collapse;
+}
+#name{
+	font-size:1.2vw;
+	text-align:center;
+	border:2px solid;
+	border-bottom:3.5px solid;
+	width:30vw;
+}
+#date{
+	font-size:1.2vw;
+	text-align:center;
+	border:2px solid;
+	border-bottom:3.5px solid;
+	width:15vw;
+}
+#message{
+	text-align:center;
+	font-size:1.5vw;
+	background:#ffffff;
+}
+#contactlist tr:nth-child(odd) {
+	height:1.5vw;
+	font-size:1.5vw;
+	background:#CCCC99;
+	}
+textarea{
+	resize: none;
+	font-size:1.5vw;
+}
+.return{
+	clear:both;
+}
+#img{
+	width:20vw;
+}
+.menuphoto{
+	text-align:right;
+	margin-right:15vw;
+}
+#menuimg{
+	width:10vw;
+}
+.menuprice{
+	display: block;
+	text-align:right;
+	margin-right:30vw
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+.return{
+	font-size:5vw;
+}
+#contactlist {
+	margin-left: 1vw;
+    margin-right: 1vw;
+    width:70vw;
+}
+.photo{
+	margin-right:24vw;
+}
+.detail{
+	clear: both;
+}
+#img{
+	width:50vw;
+}
+.menuphoto{
+	margin-right:24vw;
+}
+#menuimg{
+	width:50vw;
+}
+}

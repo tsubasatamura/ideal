@@ -1,0 +1,84 @@
+@charset "utf-8";
+h2{
+	font-size:1.5vw;
+	font-weight: bold;
+	text-align:center;
+}
+.before{
+	font-size:1.5vw;
+}
+.after{
+	float:right;
+	margin-right:19vw;
+	font-size:1.5vw;
+}
+#holidaytable{
+	border-collapse: collapse;
+	border:5px solid;
+	margin-left: auto;
+    margin-right: auto;
+    width:40vw;
+    height:40vh;
+    background-color:white;
+    font-size:1.5vw;
+}
+#holidaytable td{
+	border-collapse: collapse;
+	border:1px solid;
+	text-align:center;
+	vertical-align:middle;
+}
+#holidaytable th{
+	border-collapse: collapse;
+	border:1px solid;
+	border-bottom:3px solid black;
+	text-align:center;
+	vertical-align:middle;
+}
+#submit{
+	font-size:1vw;
+	width:6vw;
+}
+
+#month{
+	border: 0px none;
+	font-size:2vw;
+}
+.hol{
+	background:#99CCCC;
+}
+.con{
+	margin:1px;
+	background:white;
+}
+input{
+	margin:1px;
+}
+.alert{
+	text-align:center;
+	font-size:1.2vw;
+}
+@media screen and (max-width:1024px){
+#submit{
+	font-size:4vw;
+	width:12vw;
+}
+#month{
+	font-size:6vw;
+}
+.before{
+	font-size:4vw;
+}
+.after{
+	font-size:4vw;
+}
+#holidaytable{
+    font-size:3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width:70vw;
+}
+.alert{
+	font-size:3vw;
+}
+}

@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+.scroll-table {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.reservationTime {
+  text-align: center;
+  vertical-align: middle;
+  color: #333;
+  background-color: #ededdc;
+}
+
+table.checkTime {
+	margin: 2px 0;
+}
+
+table.checkTime label {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+table.checkTime td, th {
+	padding: 0px;
+}
+
+table.checkTime td label {
+	color: #0080ff;
+	font-weight: bolder;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+table.checkTime input[type=radio] {
+	display: none; /* ラジオボタンを非表示にする */
+}
+
+table.checkTime input[type=radio]:checked+label {
+	background: #31A9EE; /* マウス選択時の背景色を指定する */
+	color: #ffffff; /* マウス選択時のフォント色を指定する */
+}
+
+p.dateTime {
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+p.dateTime {
+	margin: 0;
+}
+
+h3.month {
+	text-align: center;
+}
+
+.reservation {
+	padding: 10px;
+	text-align: center;
+}
+
+.reservation p {
+	text-align: center;
+	font-size: 1em;
+	padding: 5px;
+	margin: 0px;
+}
+
+.annotation {
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid #b99253;
+	padding: 20px;
+	width: 80%;
+}
+
+.annotation p{
+	text-align: left;
+	font-size: 1em;
+}
+
+.reserveInsert label {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.reservation p.mark {
+	text-align: center;
+	font-size: 2em;
+}
+
+.reservation div.currentM {
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+	font-size: 1.2em;
+}
+
+.reservation table {
+	padding: 5px;
+	width: 80%;
+	border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservation table p {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reservation table th, td {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #b99253;
+}
+
+.reservation table th {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	color: #fff;
+	background: #866326;
+	border-left: #b99253 5px solid
+}
+
+.reservation td.today {
+	background: #fcf796;
+}
+
+.reservation table td {
+	text-align: center;
+	border-left: #b99253 3px double;
+}
+
+.reservation dt {
+	font-weight: bold;
+}
+
+.reservation dd {
+	padding-bottom: 10px;
+}
+
+/* 予約状況
+------------------------------------------------------------*/
+.reservationStatus {
+	padding: 20px 0px;
+}
+
+.reservationStatus p {
+	text-align: center;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.reservationStatus h3 {
+	text-align: center;
+	color: #004080;
+	font-size: 1.2em;
+	padding: 10px;
+	border: hidden;
+}
+
+.reservationStatus table {
+	padding: 5px 10px;
+	width: 100%;
+	border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservationStatus table th, td {
+	padding: 20px 0;
+	border: 1px solid #b99253;
+}
+
+.reservationStatus table th {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	color: #fff;
+	background: #866326;
+	border-left: #b99253 5px solid
+}
+
+.reservationStatus td.contents {
+	background: #e1e1ff;
+	font-weight: bolder;
+}
+
+.reservationStatus td.contents a{
+	color: #002244;
+}
+
+.reservationStatus td.contents a:HOVER{
+	color: #8080c0;
+}
+
+.reservationStatus td.charter {
+	background: #ffe4ca;
+	font-weight: bolder;
+}
+
+.reservationStatus td.charter a{
+	color: #ca0000;
+}
+
+.reservationStatus td.charter a:HOVER{
+	color: #ff8040;
+}
+
+.reservationStatus td.subumitTd {
+	text-align: center;
+}
+
+.reservationStatus table td {
+	border-left: #b99253 3px double;
+}
+
+.reservationStatus dt {
+	font-weight: bold;
+}
+
+.reservationStatus dd {
+	padding-bottom: 10px;
+}
+
+p.toTop {
+	text-align: right;
+	padding-bottom: 5px;
+}
+
+
+/* 予約一覧テーブル
+------------------------------------------------------------*/
+.reserveList {
+	padding: 15px 0px;
+}
+
+.reserveList table {
+	padding: 5px 0;
+	width: 80%;
+	border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reserveList table th, td {
+	padding: 5px;
+	border: 1px solid #b99253;
+}
+
+.reserveList table th {
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	color: #fff;
+	background: #866326;
+	border-left: #b99253 5px solid
+}
+
+.reserveList table td {
+	text-align: left;
+	border-left: #b99253 3px double;
+}
+
+.reserveList table td.submitLeft {
+	text-align: center;
+}
+
+/* 予約完了画面
+------------------------------------------------------------*/
+.reserveComp {
+	padding: 15px 0px;
+}
+
+.reserveComp p {
+	padding: 15px 0px;
+}
+
+p span.msg {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+

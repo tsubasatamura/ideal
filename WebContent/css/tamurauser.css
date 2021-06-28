@@ -1,0 +1,24 @@
+@charset "utf-8";
+#usertable{
+	margin-left: auto;
+	margin-right: auto;
+}
+#index{
+	color:white;
+	background-color:#866326;
+}
+#address{
+	width: 300px;
+}
+
+@media screen and (max-width:1024px){
+#usertable{
+	font-size:4vw;
+}
+#usertable td{
+	vertical-align: middle ;
+}
+#address{
+	width: 70vw;
+}
+}
